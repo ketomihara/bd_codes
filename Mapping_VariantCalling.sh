@@ -5,8 +5,6 @@ GENOME="/mnt/e/workspace/reference_genome/Bomo_genome_assembly.fa"
 GTF="/mnt/e/workspace/reference_genome/Bomo_gene_models.gtf"
 INDEX="/mnt/e/workspace/reference_genome/STAR_genome_index"
 RSEMINDEX="/mnt/e/workspace/reference_genome/RSEM_index"
-BAMS="/mnt/e/workspace/bd_RNASeq/bams"
-LOGS="/mnt/e/workspace/bd_RNASeq/logs"
 FILE_PROCESS_LIST="/mnt/e/workspace/bd_RNASeq/RNA_processing_list.txt"
 DICT="/mnt/e/workspace/reference_genome/Bomo_genome_assembly.dict"
 
