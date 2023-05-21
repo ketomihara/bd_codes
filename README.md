@@ -1,6 +1,7 @@
-# bd_RNASeq_codes
+# bd_codes
 Scripts for our paper (Tomihara & Kiuchi, 2023, bioRxiv. doi: 10.1101/2023.04.01.535244) are provided here.
 
+#For RNA-seq analysis
 <Mapping_VariantCalling.sh>
 Dependencies: STAR 2.7.20, GATK 4.3.0, samtools 1.6, sambamba 1.0.0. Other versions may be also fine.
 Genome assembly and gene annotation of Bombyx mori can be obtained from SilkBase (https://silkbase.ab.a.u-tokyo.ac.jp/) or KAIKObase (https://kaikobase.dna.affrc.go.jp/).
