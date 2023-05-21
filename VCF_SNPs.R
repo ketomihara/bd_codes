@@ -85,10 +85,6 @@ pdf("Chr9_SNPs.pdf", height=3.2, width=6)
 g9
 dev.off()
 
-svg("Chr9_SNPs.svg", height=3.2, width=4.7)
-g9
-dev.off()
-
 #bd_plus only
 g9_2 <- ggplot(data_chr9[data_chr9$sample %in% "bd_plus",], aes(x = position))+ 
 	geom_histogram(binwidth=1000000, boundary = 1, fill="#E69F00")+
@@ -98,9 +94,5 @@ g9_2 <- ggplot(data_chr9[data_chr9$sample %in% "bd_plus",], aes(x = position))+
 	theme_classic()
 
 pdf("Chr9_SNPs_revise.pdf", height=3.2, width=4.7)
-g9_2
-dev.off()
-
-svg("Chr9_SNPs_revise.svg", height=3.2, width=4.7)
 g9_2
 dev.off()
