@@ -1,0 +1,3 @@
+/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2866061.1_1_val_1.fq	/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2866061.1_2_val_2.fq	bd_bd
+/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2850623.1_1_val_1.fq	/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2850623.1_2_val_2.fq	bd_plus
+/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2839844.1_1_val_1.fq	/mnt/e/workspace/bd_RNASeq/Reads_trimed/SRR2839844.1_2_val_2.fq	p50T
