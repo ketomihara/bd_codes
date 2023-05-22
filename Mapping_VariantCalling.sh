@@ -10,9 +10,9 @@ DICT="/mnt/e/workspace/reference_genome/Bomo_genome_assembly.dict"
 
 
 ###indexing###
+#This analysis was performed using Windows WSL on Windows partitions 
+#In STAR, if run partition does not support FIFO (e.g. Windows partitions FAT, NTFS), it is required to point --outTmpDir to a Linux partition.
 STAR --runThreadN 5 --runMode genomeGenerate --genomeDir $INDEX --genomeFastaFiles $GENOME --sjdbGTFfile $GTF --genomeSAindexNbases 13 --outTmpDir /home/tommy/STAR_temp
-#This analysis was performed on Windows WSL
-#If run partition does not support FIFO (e.g. Windows partitions FAT, NTFS), re-run on a Linux partition, or point --outTmpDir to a Linux partition.
 rsem-prepare-reference --gtf $GTF -p 4 $GENOME $RSEMINDEX
 gatk CreateSequenceDictionary -R ${GENOME} -O ${DICT}
 samtools faidx ${GENOME}
