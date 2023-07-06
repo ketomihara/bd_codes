@@ -1,5 +1,5 @@
 # bd_codes
-Scripts for our paper (Tomihara & Kiuchi, 2023, bioRxiv. doi: 10.1101/2023.04.01.535244) are provided here.
+Scripts for our paper (Tomihara & Kiuchi, 2023, Insect Biochemistry and Molecular Biology. doi: 10.1016/j.ibmb.2023.103982) are provided here.
 
 **Mapping_VariantCalling.sh**  
 Dependencies: STAR 2.7.20, GATK 4.3.0, samtools 1.6, sambamba 1.0.0. Other versions may be also fine.  
